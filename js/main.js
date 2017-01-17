@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $(".link").fastClick(function(){
     screen = "#" + $(this).attr("page-load");
-    if ($(this).hasClass("slideleft")) {
+    if ($(this).hasClass("album-artwork")) {
       $(".selected").addClass("previous");
       $(screen).css({x:$(window).width() + "px"}).addClass("selected");
       $(".previous").transition({x:"-" + $(window).width() + "px"},300,"ease");
@@ -11,7 +11,7 @@ $(document).ready(function() {
         $(".sc").removeAttr("style");
       });
     }
-    if($(this).hasClass("slideup")){
+    if($(this).hasClass("now-playing-bar") || $(this).hasClass("now-playing-bar-arrow")){
       $(".selected").addClass("previous");
       $(screen).css({y:$(window).height() + "px"}).addClass("selected");
       $(screen).transition({y:"0px"},300,"ease",function() {
@@ -41,7 +41,7 @@ $(document).ready(function() {
       });
 
     }
-    if($(this).hasClass("backdown")){
+    if($(this).hasClass("backdown") || $(this).hasClass("now-playing-header-arrow")){
       $(".selected").addClass("previous");
       $(screen).show();
       $(".previous").css("z-index","24").transition({y:$(window).height() + "px"},300,"ease",function() {

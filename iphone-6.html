@@ -12,12 +12,9 @@
     <link rel="stylesheet" href="css/master.css">
   </head>
   <body>
-    <div id="mobile-frame">
     <div id="home" class="sc selected">
       <ul>
-        <li class="link album-artwork" page-load="album-page">
-          </li>
-
+        <li class="link album-artwork" page-load="album-page"></li>
         <li class="link album-artwork" page-load="album-page"></li>
         <li class="link album-artwork" page-load="album-page"></li>
         <li class="link album-artwork" page-load="album-page"></li>
@@ -29,20 +26,22 @@
         <li class="link album-artwork" page-load="album-page"></li>
         <li class="link album-artwork" page-load="album-page"></li>
         <li class="link now-playing-bar" page-load="now-playing-page">
-        <li class="now-playing-artwork"></li></li>
+          <header><h1>Girl - Jamie xx</h1></header>
+          <li class="link now-playing-bar-arrow" page-load="now-playing-page"></li>
+          <li class="now-playing-artwork"></li>
+        </li>
       </ul>
-
     </div>
-  </div>
-
     </div>
-		<div id="screen2" class="sc">
-			<header><a class="back link backdown" page-load="home">Back</a>
-				<h1>Screen 2</h1>
+		<div id="now-playing-page" class="sc">
+			<header class="now-playing-header back link backdown" page-load="home">
+        <div class="link now-playing-header-arrow" page-load="home">
+        </div>
+				<h1>Now Playing</h1>
       </header></div>
-  <div id="screen3" class="sc">
-    <header><a class="back link slideright" page-load="home">Back</a>
-      <h1>Screen 3</h1>
+  <div id="album-page" class="sc">
+    <header class="back link slideright" page-load="home">
+      <h1>In Colour by Jamie xx</h1>
     </header></div>
   <div id="screen4" class="sc">
     <header><a class="back link slideleft" page-load="home">Back</a>

@@ -11,6 +11,9 @@ body{
   position: relative;
 }
 iframe {
+  left: 50px;
+  top: 50px;
+
 }
 .sc{
   width:100%;
@@ -33,9 +36,6 @@ img {
   height: auto;
   width: auto;
 }
-#mobile-frame {
-
-}
 .album-artwork{
   width: 152px;
   padding-top: 152px;
@@ -44,7 +44,6 @@ img {
   margin: 22px 0 0 22px;
   border-radius: 6px;;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 .album-artwork:active{
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -55,7 +54,24 @@ img {
   position: fixed;
   left: 0px;
   bottom: 0px;
-  background: #647C8B;
+  background: #F5F5F5;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.now-playing-bar-arrow{
+  height: 48px;
+  width: 48px;
+  position: fixed;
+  left: 5px;
+  bottom: 5px;
+  background-image: url(../images/UI/up-arrow.png);
+}
+.now-playing-bar header{
+  font-family: Roboto;
+  font-weight: medium;
+  font-size: 15sp;
+  text-align: center;
+  line-height: 60px;
+  color: #545454;
 }
 .now-playing-artwork{
   height: 60px;
@@ -66,25 +82,33 @@ img {
   background-image: url(../images/nowplaying-jamiexx-incolour.png);
 }
 #home{
-  background: #E2E1E0;
+  background: #FAFAFA;
 }
 #album-page{
-  background: #E2E1E0;
+  background: #F5F5F5;
 }
-header{
-  height: 44px;
-  background: rgba(255,255,255,.9);
-  position: relative;
-  font-family: sans-serif;
-  font-weight: lighter;
+#now-playing-page{
+  background: #FAFAFA;
 }
-header h1{
+#now-playing-page h1{
   text-align: center;
-  line-height: 44px;
+  line-height: 60px;
+  color: RGBA(0,0,0,.87);
+  font-family: Roboto;
+  font-weight: medium;
+  font-size: 15px;
 }
-header a{
-  position: absolute;
-  line-height: 44px;
-  top: 0;
-  left: 11px;
+.now-playing-header{
+  height: 60px;
+  background: #F5F5F5;
+  position: relative;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.now-playing-header-arrow{
+  height: 48px;
+  width: 48px;
+  position: fixed;
+  left: 5px;
+  top: 5px;
+  background-image: url(../images/UI/down-arrow.png);
 }
