@@ -10,6 +10,8 @@ body{
   height:100%;
   position: relative;
 }
+iframe {
+}
 .sc{
   width:100%;
   height:100%;
@@ -26,9 +28,17 @@ body{
   height: 100%;
   text-align: left;
 }
-#home ul li{
-  height: 152px;
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+#mobile-frame {
+
+}
+.album-artwork{
   width: 152px;
+  padding-top: 152px;
   background-image: url(../images/jamiexx-incolour.png);;
   display: inline-block;
   margin: 22px 0 0 22px;
@@ -36,10 +46,26 @@ body{
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
-#home{
-  background: #E2E1E0;
+.album-artwork:active{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
-#screen1{
+.now-playing-bar{
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  background: #647C8B;
+}
+.now-playing-artwork{
+  height: 60px;
+  width: 60px;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  background-image: url(../images/nowplaying-jamiexx-incolour.png);
+}
+#home{
   background: #E2E1E0;
 }
 #album-page{
