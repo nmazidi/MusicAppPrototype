@@ -39,13 +39,25 @@ img {
 .album-artwork{
   width: 152px;
   padding-top: 152px;
-  background-image: url(../images/jamiexx-incolour.png);;
+  background-image: url(../images/jamiexx-incolour-thumb.png);;
   display: inline-block;
   margin: 22px 0 0 22px;
   border-radius: 6px;;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 .album-artwork:active{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.album-artwork2{
+  width: 152px;
+  padding-top: 152px;
+  background-image: url(../images/skepta-kinnichiwa.jpg);;
+  display: inline-block;
+  margin: 22px 0 0 22px;
+  border-radius: 6px;;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.album-artwork2:active{
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .now-playing-bar{
@@ -68,7 +80,7 @@ img {
 .now-playing-bar header{
   font-family: Roboto;
   font-weight: medium;
-  font-size: 15sp;
+  font-size: 17px;
   text-align: center;
   line-height: 60px;
   color: #545454;
@@ -110,5 +122,30 @@ img {
   position: fixed;
   left: 5px;
   top: 5px;
-  background-image: url(../images/UI/down-arrow.png);
+}
+.album-page-artwork{
+  height: 375px;
+  width: 375px;
+  position: fixed;
+  top: 0px;
+  background-image: url(../images/jamiexx-incolour.jpg);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+#album-page .album-name{
+  width: 375px;
+  height: 100px;
+  background: rgba(33, 33, 33, 0.5);
+  position: absolute;
+  bottom: 0px;
+
+}
+#album-page h1{
+  font-family: Roboto;
+  font-weight: light;
+  font-size: 40px;
+  text-align: left;
+  color: #F5F5F5;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
 }

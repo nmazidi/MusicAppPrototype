@@ -15,7 +15,7 @@
     <div id="home" class="sc selected">
       <ul>
         <li class="link album-artwork" page-load="album-page"></li>
-        <li class="link album-artwork" page-load="album-page"></li>
+        <li class="link album-artwork2" page-load="album-page"></li>
         <li class="link album-artwork" page-load="album-page"></li>
         <li class="link album-artwork" page-load="album-page"></li>
         <li class="link album-artwork" page-load="album-page"></li>
@@ -28,21 +28,28 @@
         <li class="link now-playing-bar" page-load="now-playing-page">
           <header><h1>Girl - Jamie xx</h1></header>
           <li class="link now-playing-bar-arrow" page-load="now-playing-page"></li>
-          <li class="now-playing-artwork"></li>
+          <li class="now-playing-artwork">
+            <img src="images/UI/pause.png" class="link pause">
+          </li>
         </li>
       </ul>
     </div>
     </div>
 		<div id="now-playing-page" class="sc">
 			<header class="now-playing-header back link backdown" page-load="home">
-        <div class="link now-playing-header-arrow" page-load="home">
-        </div>
+        <img src="images/UI/down-arrow.png" class="link now-playing-header-arrow" page-load="home" />
 				<h1>Now Playing</h1>
       </header></div>
   <div id="album-page" class="sc">
     <header class="back link slideright" page-load="home">
-      <h1>In Colour by Jamie xx</h1>
-    </header></div>
+      <h1></h1>
+    </header>
+    <div class="album-page-artwork">
+      <div class="album-name">
+        <h1>Jamie xx - In Colour</h1>
+      </div>
+    </div>
+  </div>
   <div id="screen4" class="sc">
     <header><a class="back link slideleft" page-load="home">Back</a>
       <h1>Screen 4</h1>
