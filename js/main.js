@@ -49,6 +49,14 @@ $(document).ready(function() {
     $(".play").css("visibility", "visible");
     $(".pause").css("visibility", "hidden");
   })
+  $(".play-thumb").fastClick(function(){
+    $(".pause-thumb").css("visibility", "visible");
+    $(".play-thumb").css("visibility", "hidden");
+  })
+  $(".pause-thumb").fastClick(function(){
+    $(".play-thumb").css("visibility", "visible");
+    $(".pause-thumb").css("visibility", "hidden");
+  })
   $(".now-playing-album").fastClick(function(){
     if ($(".play").css("visibility") != null) {
       $(".play").css("visibility", "hidden");

@@ -76,6 +76,12 @@ img {
 .album6{
   background-image: url(../images/childishgambino-awakenmylove-thumb.jpg);;
 }
+.album7{
+  background-image: url(../images/glassanimals-htbahb-thumb.jpg);;
+}
+.album8{
+  background-image: url(../images/dizzeerascal-boyindacorner-thumb.jpg);;
+}
 .now-playing-bar{
   height: 60px;
   width: 100%;
@@ -108,6 +114,15 @@ img {
   right: 0px;
   bottom: 0px;
   background-image: url(../images/nowplaying-jamiexx-incolour.png);
+}
+.play-thumb{
+  position: absolute;
+  opacity: 0.5;
+  visibility: hidden;
+}
+.pause-thumb{
+  position: absolute;
+  opacity: 0.5;
 }
 #home{
   background: #FAFAFA;
@@ -190,6 +205,22 @@ img {
   position: absolute;
   top: 0px;
   background-image: url(../images/childishgambino-awakenmylove.jpg);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.album-page7-artwork{
+  height: 375px;
+  width: 375px;
+  position: absolute;
+  top: 0px;
+  background-image: url(../images/glassanimals-htbahb.jpg);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.album-page8-artwork{
+  height: 375px;
+  width: 375px;
+  position: absolute;
+  top: 0px;
+  background-image: url(../images/dizzeerascal-boyindacorner.jpg);
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 .album-name{
