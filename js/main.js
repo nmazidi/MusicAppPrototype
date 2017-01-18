@@ -30,7 +30,7 @@ $(document).ready(function() {
         $(".sc").removeAttr("style");
       });
     }
-    if($(this).hasClass("slideright")){
+    if($(this).hasClass("back-button-black") || $(this).hasClass("back-button-white")){
       $(".selected").addClass("previous");
       $(screen).css({x:"-" + $(window).width() + "px"}).addClass("selected");
       $(".previous").transition({x:$(window).width() + "px"},300,"ease");
