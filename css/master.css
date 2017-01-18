@@ -50,7 +50,7 @@ img {
   width: 166px;
   height: 166px;
   display: inline-block;
-  margin: 12px 0 0 12px;
+  margin: 13px 0 0 12px;
   border-radius: 2px;;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
@@ -126,7 +126,7 @@ img {
   color: RGBA(0,0,0,.87);
   font-family: Roboto;
   font-weight: medium;
-  font-size: 15px;
+  font-size: 17px;
 }
 .now-playing-header{
   height: 60px;
@@ -251,7 +251,7 @@ img {
   font-family: Roboto;
   font-weight: light;
   font-size: 20px;
-  color: #424242;
+  color: #616161;
   line-height: 50px;
   text-indent: 5px;
 }
