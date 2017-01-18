@@ -268,7 +268,7 @@ img {
 .now-playing-slider .content .song {
   float: left;
 }
-.song {
+.page {
   width: 275px;
   height: 275px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -276,15 +276,15 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.song:nth-child(1){
+.page:nth-child(1){
   background-image: url(../images/kaytranada-99.9.jpg);
 }
-.song:nth-child(2){
+.page:nth-child(2){
   background-image: url(../images/kaytranada-99.9.jpg);
 }
-.song:nth-child(3){
+.page:nth-child(3){
   background-image: url(../images/kaytranada-99.9.jpg);
 }
-.song:nth-child(4){
+.page:nth-child(4){
   background-image: url(../images/kaytranada-99.9.jpg);
 }
