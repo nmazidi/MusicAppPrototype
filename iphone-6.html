@@ -6,6 +6,7 @@
     <script src="js/google.fastbutton.js"></script>
     <script src="js/jquery.google.fastbutton.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
     <title>Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1" />
     <meta charset="utf-8" />
@@ -38,10 +39,21 @@
     </div>
     </div>
 		<div id="now-playing-page" class="sc">
+      <body>
+      <div class="now-playing-slider">
+        <div class="content">
+          <div class="song"></div>
+          <div class="song"></div>
+          <div class="song"></div>
+          <div class="song"></div>
+          <div class="song"></div>
+        </div>
+      </div>
 			<header class="now-playing-header back link backdown" page-load="home">
         <img src="images/UI/down-arrow.png" class="link now-playing-header-arrow" page-load="home" />
 				<h1>Now Playing</h1>
-      </header></div>
+      </header>
+</div>
   <div id="album-page" class="sc">
     <div class="album-page-artwork">
     <div class="link back-button-black" page-load="home"></div>
@@ -125,6 +137,18 @@
         <h1 id="artist-name">by Justice</h1>
       </div>
     </div>
+    <ul id="tracklist">
+      <li><p>Safe and Sound</p></li>
+      <li><p>Pleasure</p></li>
+      <li><p>Alakazam !</p></li>
+      <li><p>Fire</p></li>
+      <li><p>Stop</p></li>
+      <li><p>Chorus</p></li>
+      <li><p>Randy</p></li>
+      <li><p>Heavy Metal</p></li>
+      <li><p>Love S.O.S</p></li>
+      <li><p>Close Call</p></li>
+    </ul>
   </div>
   <div id="album-page5" class="sc">
     <header class="back link slideright" page-load="home">
@@ -137,6 +161,23 @@
         <h1 id="artist-name">by KAYTRANADA</h1>
       </div>
     </div>
+    <ul id="tracklist">
+      <li><p>TRACK UNO</p></li>
+      <li><p>BUS RIDE</p></li>
+      <li><p>GOT IT GOOD</p></li>
+      <li><p>TOGETHER</p></li>
+      <li><p>DRIVE ME CRAZY</p></li>
+      <li><p>WEIGHT OFF</p></li>
+      <li><p>ONE TOO MANY</p></li>
+      <li><p>DESPITE THE WEATHER</p></li>
+      <li><p>GLOWED UP</p></li>
+      <li><p>BREAKDANCE LESSON N.1</p></li>
+      <li><p>YOU'RE THE ONE</p></li>
+      <li><p>VIVID DREAMS</p></li>
+      <li><p>LITE SPOTS</p></li>
+      <li><p>LEAVE ME ALONE</p></li>
+      <li><p>BULLETS</p></li>
+    </ul>
   </div>
   <div id="album-page6" class="sc">
     <header class="back link slideright" page-load="home">
@@ -149,6 +190,25 @@
         <h1 id="artist-name">by Childish Gambino</h1>
       </div>
     </div>
+    <ul id="tracklist">
+      <li><p>Me and Your Mama</p></li>
+      <li><p>Have Some Love</p></li>
+      <li><p>Boogieman</p></li>
+      <li><p>Zombies</p></li>
+      <li><p>Riot</p></li>
+      <li><p>Redbone</p></li>
+      <li><p>California</p></li>
+      <li><p>Terrified</p></li>
+      <li><p>Baby Boy</p></li>
+      <li><p>The Night Me and Your Mama Met</p></li>
+      <li><p>Stand Tall</p></li>
+    </ul>
   </div>
+
+  <script type="text/javascript">
+    $(function() {
+      $('.now-playing-slider').musicSlider();
+    });
+  </script>
 </body>
 </html>
